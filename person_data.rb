@@ -1,3 +1,17 @@
+# It works! 
+
+# Watch indentation and space, super important for communication
+# Everything in a hash should be indented by two spaces.
+# Curly braces for hashes should start on a new line, with their contents indented by two spaces.
+
+[
+  {
+    first_name: "John",
+    last_name: "Foley",
+    email: "john@gschool.it",
+    class: "Beginning snark"
+  }
+]
 
 ary=[
 {first_name: "John",
@@ -40,6 +54,10 @@ last_name: "Thomas",
 email: "k.thomas@hotmail.com",
 class: "Ruby Immersive"}
 ]
+
+# It's great that your are doing this experimentation.
+# It would be better to put it into a separate file
+# You can require files in the same directory with `require_relative`
 puts "--------------ALL-----------------------"
 ary.each do |hash|
   puts "#{hash[:last_name]} #{hash[:first_name]} #{hash[:email]}"
